@@ -4,7 +4,7 @@ body {
     color: #ffffff;
     overflow-x: hidden;
     background: linear-gradient(135deg, #000000 0%, #111111 100%);
-    /* TEST: If you see this comment in browser inspector, CSS is working */
+  
 }
 
 .navbar {
@@ -819,7 +819,7 @@ body {
 .video-wrapper {
     position: relative;
     width: 100%;
-    padding-bottom: 177.78%; /* 9:16 aspect ratio (16/9 = 1.778, so 1/1.778 = 0.5625, but for 9:16 it's 9/16 = 0.5625, flip it: 16/9 = 1.778) */
+    padding-bottom: 177.78%; 
     height: 0;
     overflow: hidden;
     border-radius: 15px 15px 0 0;
